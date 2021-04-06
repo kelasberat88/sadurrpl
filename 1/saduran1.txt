@@ -1,8 +1,0 @@
-nim: 1811500015
-Nama : Afra
-kelompok: TI6A
-
-hasil saya menyadur:
-1) Ada tugas untuk menyadur tiap pertemuan dan ditaruh di github
-2) Buat kelompok presentasi sebanyak 3 orang mahasiswa / kelompok
-3) dst
