@@ -44,3 +44,8 @@
   border:1px solid #DCA; 
   background:#fffAF0;
 }
+
+.tabel .tengah:hover {
+  text-align: center;
+  font-size: xx-large;
+}
