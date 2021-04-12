@@ -10,11 +10,11 @@
   width: 70%;
 }
 
-table, th, td {
+.tabel table, .tabel th, .tabel td {
   border: 1px solid #000;
 }
 
-th {
+.tabel th {
   background-color: cadetblue;
   font-weight: bolder;
   color: whitesmoke;
