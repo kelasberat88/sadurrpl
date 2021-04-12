@@ -1,35 +1,50 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<link href="style.css">
+<link type="text/css" href="style.css">
 <table style="width: 100%;">
     <tr>
         <td valign="top" class="kolomkiri">Pilih Kelompok</td>
-        <td valign="top" class="kolomkanan">Pilih Kelompok</td>
+        <td valign="top" class="kolomkanan">
+            <select id="slKelompok" name="slKelompok">
+                <option selected>---Pilih Kelompok---</option>
+                <option value="1" grouping="TI6A"  >TI6A</option>
+                <option value="2" grouping="TI6J"  >TI6J</option>
+            </select>
+        </td>
     </tr>
 </table>
-<select id="selectsample" name="samp">
-    <option value="1" grouping="Yes"  >first</option>
-    <option value="2" grouping="No"  >four</option>
-</select>
-<input type='text' id='txt1'>
-<div id="Divid">ddsddsaa</div>
+
+<div id="Dividti6A">ddsddsaa
+    TI6A
+</div>
+<!--/ akhir TI 6A-->
+
+<div id="Dividti6AJ">ddsddsaa
+    TI6J
+</div>
+<!--/ akhir TI 6AJ-->
+
 <script>
   function ShowHideDiv()
   {
-      var groupattr = $("option:selected", "#selectsample").attr("grouping");
-      if (groupattr == "Yes")
+      var groupattr = $("option:selected", "#slKelompok").attr("grouping");
+      if (groupattr == "TI6A")
           {
-              $("#Divid").show();
+              $("#Dividti6A").show();
+          }
+      else if (groupattr == "TI6J")
+          {
+              $("#Dividti6J").show();
           }
       else
           {
-              $("#Divid").hide();
+              $("#Dividti6A").hide();
+              $("#Dividti6J").hide();
           }
   }
 
   $(document).ready(function () {
-      //Let's run this once in case "Yes" is the default (first) option in the dropdown
-          ShowHideDiv();
-      $("#selectsample").on("change", function () {
+      ShowHideDiv();
+      $("#slKelompok").on("change", function () {
           ShowHideDiv();
       });
   });
