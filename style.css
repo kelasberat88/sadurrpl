@@ -26,6 +26,10 @@
   line-height:16px;
 }
 
+.tabel tr:hover {
+  background-color: thistle;
+}
+
 .tabel td:hover {
   text-align: left;
 }
