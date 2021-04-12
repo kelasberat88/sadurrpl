@@ -30,9 +30,10 @@
   display:inline; 
   position:absolute; 
   z-index:auto;
-  width:300px; 
+  width:100%; 
   color:#111;
   text-align: left;
+  margin: 0;
   border:1px solid #DCA; 
   background:#fffAF0;
 }
