@@ -21,7 +21,7 @@
   color: whitesmoke;
 }
 
-td.tooltips {
+td .tooltips {
   z-index:10;
   display:none; 
   padding:14px 20px;
@@ -31,7 +31,7 @@ td.tooltips {
   line-height:16px;
 }
 
-td.tooltips:hover {
+td:hover .tooltips {
   display:inline; 
   position:absolute; 
   color:#111;
