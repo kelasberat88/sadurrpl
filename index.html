@@ -29,16 +29,18 @@
       var groupattr = $("option:selected", "#slKelompok").attr("grouping");
       if (groupattr == "TI6A")
           {
-              $("#Dividti6A").show();
+            $("#Dividti6A").show();
+            $("#Dividti6J").hide();
           }
       else if (groupattr == "TI6J")
           {
-              $("#Dividti6J").show();
+            $("#Dividti6A").hide();  
+            $("#Dividti6J").show();
           }
       else
           {
-              $("#Dividti6A").hide();
-              $("#Dividti6J").hide();
+            $("#Dividti6A").hide();
+            $("#Dividti6J").hide();
           }
   }
 
