@@ -12,7 +12,7 @@
 
 .tabel table, .tabel th, .tabel td {
   border: 1px solid #000;
-  /*text-align: center;*/
+  text-align: center;
 }
 
 .tabel th {
@@ -26,13 +26,16 @@
   line-height:16px;
 }
 
+.tabel td:hover {
+  text-align: left;
+}
+
 .tabel td:hover .tooltips {
   display:inline; 
   position:absolute; 
   z-index:auto;
   width:300px; 
   color:#111;
-  text-align: left;
   margin: 0;
   border:1px solid #DCA; 
   background:#fffAF0;
