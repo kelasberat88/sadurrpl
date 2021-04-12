@@ -27,12 +27,12 @@
   function ShowHideDiv()
   {
       var groupattr = $("option:selected", "#slKelompok").attr("grouping");
-      if (groupattr == "TI6A")
+      if (groupattr === "TI6A")
           {
             $("#Dividti6A").show();
             $("#Dividti6J").hide();
           }
-      else if (groupattr == "TI6J")
+      elseif (groupattr === "TI6J")
           {
             $("#Dividti6A").hide();  
             $("#Dividti6J").show();
