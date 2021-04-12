@@ -22,10 +22,10 @@
 }
 
 td .tooltips {
-  z-index:10;
+  z-index:auto;
   display:none; 
   padding:14px 20px;
-  margin-right:280px;
+  margin-left:30px;
   margin-top:-30px; 
   width:300px; 
   line-height:16px;
