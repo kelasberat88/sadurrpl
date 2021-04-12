@@ -21,24 +21,17 @@
   color: whitesmoke;
 }
 
-td .tooltipskiri {
-  margin-left:28px;
-}
-
-td .tooltipskanan {
-  margin-right:280px;
-}
-
-td .tooltipskiri, .tooltipskanan {
+td .tooltips {
   z-index:10;
   display:none; 
   padding:14px 20px;
+  margin-left:28px;
   margin-top:-30px; 
   width:300px; 
   line-height:16px;
 }
 
-td:hover .tooltipskiri, .tooltipskanan {
+td:hover .tooltips {
   display:inline; 
   position:absolute; 
   color:#111;
