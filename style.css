@@ -20,3 +20,20 @@
   font-weight: bolder;
   color: whitesmoke;
 }
+
+.tooltips {
+  z-index:10;
+  display:none; 
+  padding:14px 20px;
+  margin-top:-30px; 
+  margin-left:28px;
+  width:300px; 
+  line-height:16px;
+}
+.tooltips:hover {
+  display:inline; 
+  position:absolute; 
+  color:#111;
+  border:1px solid #DCA; 
+  background:#fffAF0;
+}
