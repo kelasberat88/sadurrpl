@@ -27,7 +27,7 @@
 }
 
 .tabel tr:hover {
-  background-color: thistle;
+  background-color: rgb(67, 245, 171);
 }
 
 .tabel td:hover {
