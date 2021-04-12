@@ -32,7 +32,7 @@
             $("#Dividti6A").show();
             $("#Dividti6J").hide();
           }
-      elseif (groupattr === "TI6J")
+      else if (groupattr === "TI6J")
           {
             $("#Dividti6A").hide();  
             $("#Dividti6J").show();
@@ -45,10 +45,11 @@
   }
 
   $(document).ready(function () {
-      ShowHideDiv();
-      $("#slKelompok").on("change", function () {
-          ShowHideDiv();
-      });
+    $("#Dividti6A").hide();
+    $("#Dividti6J").hide();
+    $("#slKelompok").on("change", function () {
+        ShowHideDiv();
+    });
   });
 
 </script>
