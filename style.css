@@ -10,8 +10,7 @@
   width: 70%;
 }
 
-.tabel {
-  width: 100%;
+table, th, td {
   border: 1px solid #000;
 }
 
